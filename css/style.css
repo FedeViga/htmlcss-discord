@@ -128,6 +128,19 @@ p {
 /* fine header */
 
 /* main */
+.wave {
+    display: block;
+    width: 100%;
+}
+
+.wave:nth-of-type(2) {
+    rotate: 180deg;
+}
+
+.wave path {
+    fill: #F6F6F6;
+}
+
 section {
     padding: 100px 20px;
 }
