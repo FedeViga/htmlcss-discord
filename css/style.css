@@ -96,12 +96,13 @@ header {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 50px;
+    font-family: 'Whitney Bold' ;
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.3em;
     margin-bottom: 25px;
 }
@@ -110,8 +111,13 @@ p {
     display: inline-block;
     background-color: white;
     color: #23272A;
+    font-size: 1.3em;
     padding: 10px 20px;
-    border-radius: 19px;
+    border-radius: 24px;
+}
+
+.button .fa-solid {
+    margin-right: 6px;
 }
 
 .button-black {
@@ -123,26 +129,31 @@ p {
 
 /* main */
 section {
-    padding: 50px 20px;
+    padding: 100px 20px;
 }
 
 section .container {
     display: flex;
+    gap: 100px;
+}
+
+h2 {
+    font-family: 'Whitney Bold';
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 .big {
-    background-color: #1e90ff;
-    height: 496px;
-    /* test */
-
     flex-grow: 1;
 }
 
-.small {
-    background-color: #ffc0cb;
-    /* test */
+.big img {
+    width: 100%;
+}
 
+.small {
     width: 476px;
+    padding-top: 30px;
 }
 
 .bg-gray {
