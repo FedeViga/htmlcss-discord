@@ -147,7 +147,7 @@ h2 {
     flex-grow: 1;
 }
 
-.big img {
+section img {
     width: 100%;
 }
 
@@ -157,15 +157,34 @@ h2 {
 }
 
 .bg-gray {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .long {
-    background-color: #228b22;
-    height: 893px;
-    /* test */
+    text-align: center;
+}
 
-    flex-grow: 1;
+.long img {
+    margin-bottom: 20px;
+}
+
+.cta h3 {
+    font-family: 'Whitney Bold';
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+}
+
+.cta .button {
+    background-color: #8EA1E1;
+    color: white;
 }
 /* fine main */
 
