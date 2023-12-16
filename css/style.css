@@ -1,0 +1,166 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* container */
+.container {
+    max-width: 1193px;
+    margin: auto;
+}
+
+/* test */
+.container > * {
+    border: 2px dashed black;
+}
+/* fine container */
+
+
+/* nav */
+nav {
+    background-color: #ADD8E6;
+    padding: 17px;
+}
+
+nav .container {
+    background-color: #daa520;
+    display: flex;
+    
+}
+
+nav .container > * {
+    padding: 14px 8px;
+}
+
+nav .logo {
+    width: 238px;
+}
+
+nav .links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .login {
+    width: 238px;
+    text-align: right;
+}
+/* fine nav */
+
+/* header */
+#hero {
+    background-color: #00008b;
+    padding: 50px 20px;
+}
+
+.container-small {
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    height: 396px;
+    /* test */
+
+    max-width: 903px;
+    margin: auto;
+}
+/* fine header */
+
+/* main */
+section {
+    padding: 50px 20px;
+}
+
+section .container {
+    display: flex;
+}
+
+.big {
+    background-color: #1e90ff;
+    height: 496px;
+    /* test */
+
+    flex-grow: 1;
+}
+
+.small {
+    background-color: #ffc0cb;
+    /* test */
+
+    width: 476px;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.long {
+    background-color: #228b22;
+    height: 893px;
+    /* test */
+
+    flex-grow: 1;
+}
+/* fine main */
+
+
+/* footer */
+footer {
+    background-color: #23272a;
+    /* test */
+
+    padding: 10px 20px 0px 20px;
+    
+}
+
+#footer-top {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.footer-big {
+    background-color: #f08080;
+    height: 575px;
+    /* test */
+
+    width: 357px;
+}
+
+#footer-top-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-small {
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    /* test */
+
+    width: 25%;
+}
+
+#footer-bottom {
+    background-color: #7fffd4;
+    /* test */
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 18px 0px;
+}
+
+#footer-bottom > * {
+    background-color: #ffb6c1;
+    padding: 4px 6px;
+
+}
+/* fine footer */
